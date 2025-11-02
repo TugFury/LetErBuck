@@ -1,8 +1,8 @@
 import styles from "./page.module.css";
 import Link from "next/link";
 import Nav from "./components/nav/Nav";
-import HomeBanner from "./components/homeBanner/HomeBanner";
 import Footer from "./components/footer/Footer";
+import HomeBanner from "./components/homeBanner/HomeBanner";
 
 
 export default function Home() {
@@ -30,8 +30,9 @@ export default function Home() {
           <Link href="/whyUnlimited"><button className={styles.learnMoreBtn}>Learn More</button></Link>
           <Link href="https://www.carwashlogin.com/leterbuckcarwash/customerportal/signupforunlimited.aspx"><button className={styles.signMeUpBtn}>Sign Me Up</button></Link>
         </div>
-        <div className={styles.bannerM}>
         <HomeBanner />
+        <div className={styles.bannerM}>
+        
       </div>
       </main>
       <footer className={styles.footer}>

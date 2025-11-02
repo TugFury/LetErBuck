@@ -1,0 +1,113 @@
+.specialsBanner {
+  width: 300px;
+  height: 700px;
+  margin-top: 8rem;
+  margin-left: -21px;
+  background-image: url("/images/specials-banner.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bestValueBtn {
+  margin-left: 15rem;
+  margin-top: -2rem;
+  animation: 2s linear infinite forwards sway;
+}
+
+.specialsBannersRow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
+
+.topLine {
+  font-family: var(--rye);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.middleLine {
+  font-family: var(--rye);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.bottomLine {
+  font-family: var(--rye);
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.packageP {
+  font-family: var(--rye);
+}
+
+.specialsList {
+  list-style: none;
+  padding: 0;
+  margin-left: 1.5rem;
+}
+.specialsListItem::before {
+  content: "✓";
+  margin-right: 0.5rem;
+}
+
+.specialsH2 {
+  font-family: var(--rye);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation: pulse 3s infinite;
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@media (max-width: 768px) {
+  .specialsBanner {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+}

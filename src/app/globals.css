@@ -118,9 +118,7 @@ a {
   }
 }
 .banner-img {
-  position: relative;
-  width: 100%;
-  z-index: 50;
+  display: none;
 }
 .banner-img-m {
   display: none;
@@ -140,9 +138,6 @@ a {
   }
 
   .banner-img-m {
-    display: block;
-    position: relative;
-    width: 100%;
-    z-index: 50;
+    display: none;
   }
 }

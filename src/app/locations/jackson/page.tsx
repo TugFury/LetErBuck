@@ -6,6 +6,7 @@ import ContentBox from "@/app/components/contentBox/ContentBox";
 import styles from "@/app/page.module.css";
 import Hours from "@/app/components/shared/hours";
 
+
 const JacksonHolePage: React.FC = () => {
   return (
     <div className={styles.page}>
@@ -42,6 +43,7 @@ const JacksonHolePage: React.FC = () => {
               ></iframe>
             </div>
           </ContentBox>
+         
          
         </div>
       </main>
