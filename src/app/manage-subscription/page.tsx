@@ -39,7 +39,7 @@ const ManageSubscription: React.FC = () => {
               in touch about cancellation.
             </p>
             <div className={styles.cancelBtn}>
-              <Link href="mailto:colin@leterbuckcarwash.com,cass@leterbuckcarwash.com?subject=Cancellation Request"><Image
+              <Link href="mailto:colin@leterbuckcarwash.com,passmanagement@leterbuckcarwash.com?subject=Cancellation Request"><Image
                 src="/images/cancel-sub.png"
                 alt="Cancel Subscription"
                 width={250}
