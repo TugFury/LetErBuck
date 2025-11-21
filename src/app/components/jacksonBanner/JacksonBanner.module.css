@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 3rem;
 }
 
 .bestValueBtn {
@@ -44,6 +45,7 @@
 }
 
 .packageP {
+  font-size: 1.5rem;
   font-family: var(--rye);
 }
 
@@ -62,6 +64,27 @@
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
   margin-left: 0.5rem;
+}
+
+.priceBox {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+}
+
+.packageP1 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-family: var(--rye);
+}
+
+.packageP2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-family: var(--rye);
+  margin-left: 10px;
 }
 
 @keyframes sway {

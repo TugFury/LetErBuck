@@ -5,6 +5,7 @@ import ContentBox from "@/app/components/contentBox/ContentBox";
 
 import styles from "@/app/page.module.css";
 import Hours from "@/app/components/shared/hours";
+import JacksonBanner from "@/app/components/jacksonBanner/JacksonBanner";
 
 
 const JacksonHolePage: React.FC = () => {
@@ -43,7 +44,7 @@ const JacksonHolePage: React.FC = () => {
               ></iframe>
             </div>
           </ContentBox>
-         
+          <JacksonBanner />
          
         </div>
       </main>
